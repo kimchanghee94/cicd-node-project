@@ -11,7 +11,7 @@ COPY app.js .
 COPY babel.config.json .
 COPY ecosystem.config.js .
 
-EXPOSE 8080
+EXPOSE 8000
 
 RUN npm run build
 
